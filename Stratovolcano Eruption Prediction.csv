@@ -1,0 +1,15 @@
+Name,County,Country,Northness,Westness,Zone,Last Eruption Date,Second To Last Eruption Date
+Name,County,Country,Northness,Westness,64800,Last Eruption Date,Second To Last Eruption Date
+Mount Saint Helens,"Skamania County, Washington",United States of America,44,58,15898,1991-02-15,1842-11-22
+Mount Rainier,"Pierce County, Washington",United States of America,44,59,15899,250-01-01 BC,2550-01-01 BC
+Mount Pavlof,"Aleutians East Borough, Alaska",United States of America,35,19,12619,2022-12-07,2016-03-28
+Newberry Volcano,"Deschutes County, Oregon",United States of America,47,59,16979,690-01-01,490-01-01
+Cotopaxi,Cotopaxi Province,Ecuador,90,102,32502,2015-09-25,1904-11-14
+Villarrica,Araucania Region,Chile,129,109,46519,2015-03-03,1963-05-02
+Sabancaya,Caylloma Province,Peru,105,109,37909,2017-07-24,1997-05-01
+Karymsky,Kamchatka Krai,Russia,36,339,13299,2020-11-08,2018-07-14
+St. Paul,St. Paul Island,France,128,257,46337,2025-01-04,9999-12-31 BC
+Soufriere Guadeloupe,Basse-Terre,France,16,119,5879,1440-01-01,9999-12-31 BC
+Bardarbunga,Northeastern Region,Iceland,26,163,9523,1477-02-01,870-01-01
+Tenerife,Tenerife,Spain,62,164,22484,1798-06-09,80-01-01 BC
+Katmai,"Kodiak Island Borough, Alaska",United States of America,32,26,11546,1912-06-06,9999-12-31 BC
