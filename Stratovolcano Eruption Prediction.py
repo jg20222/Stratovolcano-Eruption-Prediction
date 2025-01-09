@@ -1,18 +1,7 @@
 #-*- coding: utf-8 -*-
-"How often do stratovolcanoes erupt?"
+#How often do stratovolcanoes erupt?
 
-"Variables and Lists"
-
-i = 1
-a = 1
-b = 0
-c = 0
-lst = [4392130]
-xl = []
-yl = []
-ylst = []
-
-"Importing Libraries"
+#Importing Libraries
 
 import scipy as sci
 import sklearn as skl
@@ -24,18 +13,21 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly
 
-"Setting the CSV File to a variable"
+#Setting the CSV File to a variable
 
 st = pd.read_csv('Stratovolcano Eruption Prediction.csv')
+display(st)
 
 st_columns = st[['Zone', 'Height', 'Days Between Eruptions']]
 
 x = st_columns[['Zone', 'Height']]
 y = st_columns['Days Between Eruptions']
 
-"Performing Linear Regression from Splitting to using the LinearRegression Function"
+#Train Test Splitting
 
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size = 0.2)
+
+#Linear Regression
 
 lr = linear_model.LinearRegression()
 lr.fit(xtrain, ytrain).predict(xtest).astype(np.int64), ('z' + ' ' + '=' + ' ' + str(lr.coef_[0]) + 'x' + ' ' + str(lr.coef_[1]) + 'y' + ' ' + '+' + ' ' + str(lr.intercept_))
