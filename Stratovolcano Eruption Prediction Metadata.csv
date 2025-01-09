@@ -1,0 +1,11 @@
+Column,Description
+Name,The Stratovolcano Name
+County,The Stratovolcano County
+Country,The Stratovolcano Country
+Northness,The Latitude Degree Distance From 90 Degrees North Ranked From Closest To Farthest As A Number
+Westness,The Longitude Degree Distance From 180 Degrees West Ranked From Closest To Farthest As A Number
+Distance,The Sum Of Northness And Westness
+Height,The Height In Inches Of The Stratovolcano
+Last Eruption Date,The Last Time A 3+ VEI Was Recorded
+Second To Last Eruption Date,The Second To Last Time A 3+ VEI Was Recorded
+Days Between Eruptions,The Days Between The Last Time A 3+ VEI Was Recorded And The Second To Last
